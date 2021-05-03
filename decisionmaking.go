@@ -1,7 +1,7 @@
 // package main
-// 
+//
 // import "fmt"
-// 
+//
 // func main(){
 // 	marks := 30
 // 	if marks >= 30 {
@@ -16,15 +16,15 @@
 // 		fmt.Println("Student is not selected")
 // 	}
 // }
-
+//
 package main
 
 import "fmt"
 
 func main() {
 	//Enter your code here. Read input from STDIN. Print output to STDOUT
-	var da, ma, ya int64 = 9, 6, 20
-	var de, me, ye int64 = 9, 5, 20
+	var da, ma, ya int64 = 9, 6, 20 // expected return data
+	var de, me, ye int64 = 6, 6, 20 //due date
 	var fine, late int64 
 	// fmt.Scan(&da)
 	// fmt.Scan(&ma)
@@ -41,6 +41,8 @@ func main() {
 				late = da - de
 				fine = 15 * late
 				fmt.Println(fine)
+			} else {
+				fmt.Println(("there is no fine"))
 			}
 		} else if ma > me {
 			if ya < ye {
