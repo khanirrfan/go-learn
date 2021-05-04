@@ -7,6 +7,8 @@ import "fmt"
 // anonymous function
 // function declaration
 
+// closure, callback, anonymous and recursion.
+
 func main(){
 	// 
 	result := sum(1,2,3)
@@ -20,7 +22,8 @@ func main(){
 	variadicFunc(12,45,56,34,5,6,1434)
 }
 
-func sum(a, b,c int) int{
+func sum(a,b,c int) int{
+
 	return a + b + c
 }
 
@@ -43,3 +46,5 @@ func variadicFunc(args ...int){
 
 	fmt.Println(sum)
 }
+// what is callback - a callback function is
+// anonymous function
