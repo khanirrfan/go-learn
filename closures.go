@@ -10,6 +10,7 @@ func main(){
 	 fmt.Println(newInts())
 	 fmt.Println(newInts())
 	 fmt.Println(newInts())
+	 
 	anotherNewInt := getSum()
 	fmt.Println(anotherNewInt())
 }
