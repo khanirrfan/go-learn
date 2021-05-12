@@ -32,9 +32,9 @@ func main() {
 	// fmt.Scan(&de)
 	// fmt.Scan(&me)
 	// fmt.Scan(&ye)
-	if ya <= ye {
+	if ya <= ye { 
 		if ma <= me {
-			if da <= de {
+			if da <= de { 
 				fine = 0
 				fmt.Println(fine)
 			} else if da >= de {

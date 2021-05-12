@@ -10,6 +10,7 @@ func main(){
 
 	fmt.Println(s)
 	fmt.Println(s[2])
+
 	// append value to slices
 
 	s = append(s, "400") // a.push("400") 
@@ -24,7 +25,9 @@ func main(){
 	beforeL := s[:2]
 	fmt.Println(beforeL);
 
+	// midalues := s[2:3]
+
 	// two dimesional slices
 
-	twoDSlices := make([][]int, 4)
+	// twoDSlices := make([][]int, 4)
 }

@@ -9,13 +9,13 @@ import "fmt"
 
 // closure, callback, anonymous and recursion.
 
-func main(){
+func main(){ //function declaration or statement
 	// 
-	result := sum(1,2,3)
+	result := sum(1,2,3) // expression
 	fmt.Println(result)
 
 	result1, result2 := multiVals()
-
+ 
 	fmt.Println(result1, result2);
 	variadicFunc(1,3)
 	variadicFunc(12,45,56)

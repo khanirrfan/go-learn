@@ -13,8 +13,8 @@ type myInterface interface{
 }
 
 func (p details) area() int {
-fmt.Println("Hello from area")
-return p.length * p.width
+	fmt.Println("Hello from area")
+	return p.length * p.width
 }
 
 

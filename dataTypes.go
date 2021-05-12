@@ -48,6 +48,7 @@ func main(){
 		var anotherString string = "this is string"; 
 		secodnString := "this is second string declaration" //- short hand methoid/property
 
+		fmt.Println(anotherString, secodnString)
 	// derived types - array, linked list, json, struct, function, slices types
 
 	// type objectName struct {

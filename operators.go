@@ -16,7 +16,7 @@ func main(){
 
 	// 2. Relational Operator ( ==, !=, >, <)
 	// fmt.Println(a == b)
-	// fmt.Println( a != b) 
+	fmt.Println( a != b) 
 	// fmt.Println( a > b)
 	// fmt.Println( a < b)
 
@@ -29,7 +29,7 @@ func main(){
 	} else {
 		fmt.Println("c is not defined")
 	}
-// 	if !a{
+// 	if !a{ !! !false = !true = false
 // 
 // 	}
 // 	if a && b {

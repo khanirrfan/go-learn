@@ -6,7 +6,7 @@ func main(){
 	//maps are go's built in associative data types. they store in values on key-pair pair.
 
 	// array [ "", "", ""]
-	//maps = {
+	//m = {
 	// 	name:"name1",
 	// 	city:"city"
 	// }
