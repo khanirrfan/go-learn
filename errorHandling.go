@@ -11,9 +11,9 @@ func main(){
 
 for _, v := range params{
 	r, e := funcError(v)
-	if e != nil{
+	if e != nil {
 		fmt.Println("function failed to give output", e)
-	} else{
+	} else {
 		fmt.Println("function is working smoothly", r)
 	}
 }
