@@ -3,10 +3,9 @@ package main
 import (
 	"net/http"
 
+	"github.com/goTutorialLecture/controller"
 	"github.com/gorilla/mux"
 	"go.mongodb.org/mongo-driver/mongo"
-
-	"github.com/goTutorialLecture/controller"
 )
 
 var client *mongo.Database
@@ -17,6 +16,7 @@ func main() {
 	// https://www.example.com/users
 	router.HandleFunc("/users", controller.GetUser).Methods("GET")
 	router.HandleFunc("/profile", controller.GetProfile).Methods("GET")
+	// router.HandleFunc("/posts", controller.GetPosts).Methods("GET")
 
 	http.ListenAndServe(":8080", router)
 }
