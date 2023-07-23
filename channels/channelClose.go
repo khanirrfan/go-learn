@@ -18,13 +18,20 @@ func main() {
 }
 
 func myFunction(cha chan string) {
-	//  go anotherFunc()
+	ch := make(chan string)
+	 go anotherFunc(ch)
+	 res, ok := <-ch;
+	 fmt.Println(res);
+	 if ok == false {
+		fmt.Println("closed")
+	 }
 	for i := 0; i < 4; i++ {
 		cha <- " Irfan "
 	}
 	close(cha)
+	fmt.Println("second channel closed");
 }
 
-// func anotherFunc(){
-//
-// }
+func anotherFunc(cha chan string){
+	close(cha);
+}
